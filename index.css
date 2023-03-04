@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    
+}
+.navbar-brand{
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+.navbar-brand span{
+    color: red;
+    
+}
+
+#navbarNav{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 70px;
+
+}
+.nav-item a:hover{
+    color: red;
+    transition: calc(0.7s);
+    
+}
+
+
+#img5{
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border-radius: 15px;
+    margin: 65px;
+    box-shadow: 0 0 10px 0 rgb(240, 216, 223)inset, 0 0 50px 0px rgb(180, 125, 140);
+    
+}
+.frist{
+    margin-top:25px ;
+    background-color: rgb(240, 216, 223);
+    border-radius: 15px;
+    height: auto;
+    overflow: hidden;
+}
+.frist p{
+    letter-spacing: 3px;
+    padding-top: 50px;
+    padding-left: 70px;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 25px;
+}
+.form-control{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 70px;
+    width: auto;
+    border-radius: 25px;
+}
+
+#img7{
+    display:inline-block ;
+    align-items: center;
+    justify-content: right;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 65px;
+    box-shadow: 0 0 10px 0 rgb(240, 216, 223)inset, 0 0 50px 0px rgb(180, 125, 140);
+    
+}
+
+#twt,
+#insta,
+#face{
+    color: rgb(49, 46, 43);
+    font-size: 30px;
+    display: inline-block;
+    margin-left:70px ;
+    margin-top: 25px;
+}
+
+#face:hover{
+    transform: scale(1.1);
+    transition: calc(0.6s);
+    color: black;
+}
+#insta:hover{
+    transform: scale(1.1);
+    transition: calc(0.6s);
+    color: black;
+}
+#twt:hover{
+    transform: scale(1.1);
+    transition: calc(0.6s);
+    color: black;
+    
+}
+
+
+
+
+#nav1{
+    color: rgb(32, 31, 29);
+    margin:20px ;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#nav1:hover{
+    color: red;
+    transition: calc(0.6);
+    transform: scale(1.2);
+}
+
+#nav2{
+    color: rgb(32, 31, 29);
+    margin:20px ;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#nav2:hover{
+    color: red;
+    transition: calc(0.6);
+    transform: scale(1.2);
+}
+
+#nav3{
+    color: rgb(32, 31, 29);
+    margin:20px ;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#nav3:hover{
+    color: red;
+    transition: calc(0.6);
+    transform: scale(1.2);
+}
+
+#nav4{
+    color: rgb(32, 31, 29);
+    margin:20px ;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#nav4:hover{
+    color: red;
+    transition: calc(0.6);
+    transform: scale(1.2);
+}
+.card1{
+    background-color: rgb(255, 245, 231);
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 245, 231);
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 0 0 10px 0 rgba(255, 234, 206, 0.719) inset, 0 0 20px 0px rgba(197, 165, 119, 0.411);
+}
+
+.img4{
+    width: 170px;
+}
+.p{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#a1{
+    padding:5px 10px;
+    text-decoration: none;
+    background: linear-gradient(rgb(221, 95, 133),rgb(240, 81, 173));
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(250, 250, 250);
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+#a1:hover{
+    box-shadow: 0 0 10px 0 #c92b77 inset, 0 0 20px 0px #b64b7f;
+    transform: scale(1.1);
+    transition: calc(0.6s);
+    
+    
+
+}
+
+#a2{
+    padding:5px 10px;
+    text-decoration: none;
+    background: linear-gradient(rgb(221, 95, 133),rgb(240, 81, 173));
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(250, 250, 250);
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+#a2:hover{
+    box-shadow: 0 0 10px 0 #c92b77 inset, 0 0 20px 0px #b64b7f;
+    transform: scale(1.1);
+    transition: calc(0.6s);
+    
+    
+
+}
+
+#a3{
+    padding:5px 10px;
+    text-decoration: none;
+    background: linear-gradient(rgb(221, 95, 133),rgb(240, 81, 173));
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(250, 250, 250);
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+#a3:hover{
+    box-shadow: 0 0 10px 0 #c92b77 inset, 0 0 20px 0px #b64b7f;
+    transform: scale(1.1);
+    transition: calc(0.6s);
+    
+    
+
+}
+
+#a4{
+    padding:5px 10px;
+    text-decoration: none;
+    background: linear-gradient(rgb(221, 95, 133),rgb(240, 81, 173));
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(250, 250, 250);
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+#a4:hover{
+    box-shadow: 0 0 10px 0 #c92b77 inset, 0 0 20px 0px #b64b7f;
+    transform: scale(1.1);
+    transition: calc(0.6s);
+    
+    
+
+}
+
+#a5{
+    padding:5px 10px;
+    text-decoration: none;
+    background: linear-gradient(rgb(221, 95, 133),rgb(240, 81, 173));
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(250, 250, 250);
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+#a5:hover{
+    box-shadow: 0 0 10px 0 #c92b77 inset, 0 0 20px 0px #b64b7f;
+    transform: scale(1.1);
+    transition: calc(0.6s);
+    
+    
+
+}
+
+#a6{
+    padding:5px 10px;
+    text-decoration: none;
+    background: linear-gradient(rgb(221, 95, 133),rgb(240, 81, 173));
+    margin-left: 50px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(250, 250, 250);
+    font-size: 15px;
+    font-weight: 600;
+    
+    
+}
+#a6:hover{
+    box-shadow: 0 0 10px 0 #c92b77 inset, 0 0 20px 0px #b64b7f;
+    transform: scale(1.1);
+    transition: calc(0.6s);
+    
+    
+
+}
+#p1{
+    margin-top: 180px;
+    margin-left: 50px;
+    color: #3a3235;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#p2{
+    margin-top: -15px;
+    margin-left: 50px;
+    color: #3a3235;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
+#a7{
+    margin-left: 50px;
+    color: #fff;
+    background-color: #f14478;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px 0 #ec87b8 inset, 0 0 30px 0px #a8326b;
+    border-radius: 10px;
+}
+
+#img1{
+    margin-top: 50px;
+    width: 370px;
+}
+
+footer{
+    background-color: #55627c;
+    border-radius: 1px;
+    
+}
+#t1{
+    color: #c92b77;
+    padding-top: 40px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    padding: 25px;
+    
+}
+#t1 span{
+    color: white;
+}
+
+#icon1{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+#insta1{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 25px;
+
+}
+#insta1:hover{
+    color: #c92b77;
+    transition: calc(0.7s);
+    transform: scale(1.2);
+}
+
+#face1{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+#face1:hover{
+    color: #2b62c9;
+    transition: calc(0.7s);
+    transform: scale(1.2);
+}
+
+#twt1{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+#twt1:hover{
+    color: #2b62c9;
+    transition: calc(0.7s);
+    transform: scale(1.2);
+}
+
+#t2{
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#text0{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text0:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+
+#text1{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text1:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+#text2{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text2:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+#text3{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text3:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+
+#t3{
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+
+}
+
+
+#text4{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text4:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+#text5{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text5:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+#text6{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text6:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+#text7{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text7:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+#t4{
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#text8{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text8:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+
+#text9{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text9:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
+
+#text10{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#text10:hover{
+    color:#f14478 ;
+    transition: calc(0.7s);
+}
