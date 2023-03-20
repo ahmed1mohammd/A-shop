@@ -557,3 +557,41 @@ footer{
     color:#f14478 ;
     transition: calc(0.7s);
 }
+
+
+
+@media(min-width: 767px) and (max-width: 1023px){
+    
+    .card1{
+        margin: 30px;
+    }
+#p1,
+#p2,
+#a7{
+    
+    margin-left: -10px;
+}
+    
+}
+#img1{
+    margin-right:20px ;
+    width: 315px;
+}
+
+@media(max-width: 767px){
+
+    .card1{
+        margin: auto;
+        margin-top: 25px;
+    }
+    #img5,
+    #img7{
+        margin: 45px;
+    }
+
+    #img1{
+        width: 300px;
+    }
+
+
+}
